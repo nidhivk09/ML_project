@@ -67,7 +67,7 @@ y
 
 
 
-with st.expander('Data Expander'):
+with st.expander('Data Preparation'):
   
 
   st.write('**Encoded X (input penguin)**')
@@ -88,7 +88,7 @@ prediction_proba=clf.predict_proba(input_row)
 df_prediction_proba=pd.DataFrame(prediction_proba)
 df_prediction_proba.columns=['Adelie','Chinstrap','Gentoo']
 df_prediction_proba.rename(columns={0:'Adelie',1:'Chinstrap',2:'Gentoo'})
-df_prediction_proba
+#df_prediction_proba
 
 #display predicted species
 
