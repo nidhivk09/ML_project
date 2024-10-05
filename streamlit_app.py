@@ -66,7 +66,7 @@ y
 
 
 
-with st.exapnder('Data Expander'):
+with st.expander('Data Expander'):
   
 
   st.write('**Encoded X (input penguin)**')
